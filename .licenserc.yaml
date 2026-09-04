@@ -34,4 +34,5 @@ header:
     - '**/*.txt'
     - 'uv.lock'
     - '.env.example'
+    - '.env.dist'
     - '.vscode/*.json'

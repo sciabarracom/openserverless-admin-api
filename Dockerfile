@@ -17,6 +17,9 @@
 #
 FROM python:3.12-slim-bullseye
 
+ARG ADMINAPI_IMAGE_DEFAULT=docker.io/apache/openserverless-admin-api
+ARG ADMINAPI_TAG_DEFAULT=latest
+
 # Install system dependencies and uv
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libpam-modules-bin \
