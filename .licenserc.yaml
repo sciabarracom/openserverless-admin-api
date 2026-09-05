@@ -28,6 +28,7 @@ header:
     - 'LICENSE'
     - 'NOTICE'
     - 'DISCLAIMER'
+    -  'WARN'
     - 'deploy/samples/*'
     - '**/*.json'
     - '**/*.service'
