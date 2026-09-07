@@ -22,8 +22,8 @@ Python runtime dependencies (pyproject.toml / uv.lock)
 ------------------------------------------------------
   * aiohappyeyeballs (2.6.1)
       License: PSF-2.0
-  * aiohttp (3.13.2)
-      License: Apache-2.0
+  * aiohttp (3.14.3)
+      License: Apache-2.0 AND MIT
   * aiosignal (1.4.0)
       License: Apache-2.0
   * asttokens (3.0.1)
@@ -49,7 +49,7 @@ Python runtime dependencies (pyproject.toml / uv.lock)
       License: BSD-3-Clause
   * colorama (0.4.6)
       License: BSD-3-Clause
-  * cryptography (46.0.3)
+  * cryptography (50.0.0)
       License: Apache-2.0 OR BSD-3-Clause
   * decorator (5.2.1)
       License: BSD-2-Clause
@@ -65,7 +65,7 @@ Python runtime dependencies (pyproject.toml / uv.lock)
       License: BSD-3-Clause
   * frozenlist (1.8.0)
       License: Apache-2.0
-  * idna (3.11)
+  * idna (3.15)
       License: BSD-3-Clause
   * ipython (9.8.0)
       License: BSD-3-Clause
@@ -89,7 +89,7 @@ Python runtime dependencies (pyproject.toml / uv.lock)
       License: BSD-3-Clause
   * minio (7.1.13)
       License: Apache-2.0
-  * mistune (3.1.4)
+  * mistune (3.3.0)
       License: BSD-3-Clause
   * multidict (6.7.0)
       License: Apache-2.0
@@ -111,9 +111,9 @@ Python runtime dependencies (pyproject.toml / uv.lock)
       License: BSD-3-Clause
   * pygments (2.19.2)
       License: BSD-2-Clause
-  * pyjwt (2.10.1)
+  * pyjwt (2.13.0)
       License: MIT
-  * python-dotenv (1.2.1)
+  * python-dotenv (1.2.2)
       License: BSD-3-Clause
   * pyyaml (6.0.3)
       License: MIT
@@ -133,7 +133,7 @@ Python runtime dependencies (pyproject.toml / uv.lock)
       License: BSD-3-Clause
   * typing-extensions (4.15.0)
       License: PSF-2.0
-  * urllib3 (2.6.2)
+  * urllib3 (2.7.0)
       License: MIT
   * waitress (3.0.2)
       License: ZPL-2.1
