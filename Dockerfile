@@ -17,12 +17,12 @@
 #
 FROM python:3.12-slim-bullseye
 
+ARG ADMINAPI_IMAGE_DEFAULT=docker.io/apache/openserverless-admin-api
+ARG ADMINAPI_TAG_DEFAULT=latest
+
 # Install system dependencies and uv
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    libpam-modules-bin \
     curl \
-    telnet \
-    inetutils-ping \
     zip \
     unzip \
     && rm -rf /var/lib/apt/lists/*
@@ -42,6 +42,9 @@ RUN pip install --no-cache-dir uv
 # Install dependencies
 USER openserverless
 RUN uv venv && uv pip install --requirement pyproject.toml
+
+# Apache release metadata (see DISCLAIMER, LICENSE, NOTICE, WARN)
+COPY DISCLAIMER LICENSE NOTICE  /
 
 ENV HOME=/home/openserverless
 EXPOSE 5000
