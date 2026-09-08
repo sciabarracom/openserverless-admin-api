@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 #
-FROM python:3.12-slim-bullseye
+FROM python:3.12-slim-bookworm
 
 ARG ADMINAPI_IMAGE_DEFAULT=docker.io/apache/openserverless-admin-api
 ARG ADMINAPI_TAG_DEFAULT=latest

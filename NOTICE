@@ -150,9 +150,9 @@ Operating-system packages installed by the Dockerfile
   * uv (latest)
       License: Apache-2.0 OR MIT
       Python dependency manager, installed via pip.
-  * curl ((Debian bullseye))
+  * curl ((Debian bookworm))
       License: curl (MIT-like)
-  * zip, unzip ((Debian bullseye))
+  * zip, unzip ((Debian bookworm))
       License: Info-ZIP
 
 Base operating system image
@@ -161,7 +161,7 @@ Base operating system image
       License: mixed; see WARN
       Operating-system components are supplied by the upstream base image and are not
       redistributed by the ASF in source form.
-  * libpam-modules, libpam-modules-bin, libpam-runtime, libpam0g ((Debian bullseye))
+  * libpam-modules, libpam-modules-bin, libpam-runtime, libpam0g ((Debian bookworm))
       License: GPL-2.0-or-later AND BSD-3-Clause
       Shipped by the upstream base image; not installed by this Dockerfile.
       *** SEE WARN ***

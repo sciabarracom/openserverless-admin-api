@@ -49,7 +49,7 @@ CATEGORY X (as bundled)
       longer installs `libpam-modules-bin` explicitly -- it has been REMOVED from the
       apt install list, since nothing in this service uses PAM authentication. The
       package is nevertheless still present in the image because the upstream
-      python:3.12-slim-bullseye base image ships libpam-modules, libpam-modules-bin,
+      python:3.12-slim-bookworm base image ships libpam-modules, libpam-modules-bin,
       libpam-runtime and libpam0g as part of the Debian userland. It is therefore
       inherited, not added, and is disclosed here on that basis. No further action
       required.
